@@ -1,0 +1,63 @@
+.mariage--galery-img {
+  background-image: linear-gradient(
+    to right bottom,
+    #8ba56a,
+    #9bb079,
+    #aabb89,
+    #b9c699,
+    #c8d2aa
+  );
+  display: flex;
+  flex-direction: column;
+  color: white;
+  .mariage--galery-img-title {
+    text-align: center;
+    h2 {
+      font-size: 2.3rem;
+      font-weight: 600;
+    }
+  }
+  .mariage--galery-img-container {
+    padding: 10px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    > div {
+      display: flex;
+      flex-direction: column;
+      > img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 3px;
+        padding: 10px;
+        background-color: white;
+        -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+      }
+      :nth-child(1) {
+        width: 400px;
+        height: auto;
+        transform: rotate(-5deg);
+      }
+      :nth-child(2) {
+        width: 300px;
+        height: auto;
+        position: relative;
+        bottom: 30px;
+        right: 40px;
+        align-self: flex-start;
+        z-index: 10;
+        transform: rotate(5deg);
+      }
+      :nth-child(3) {
+        width: 350px;
+        height: auto;
+        position: relative;
+        bottom: 100px;
+        transform: rotate(15deg);
+      }
+    }
+  }
+}

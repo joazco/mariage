@@ -1,0 +1,60 @@
+.mariage--card-wedding {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  .mariage--card-wedding-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    img {
+      --animate-duration: 2s;
+      max-height: 100vh;
+      width: 98%;
+      max-width: 887px;
+      padding: 4px;
+
+      // object-fit: contain;
+    }
+
+    .mariage--card-wedding-btn-print {
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      padding: 10px;
+      background-color: white;
+      border: none;
+      border-radius: 10px;
+      -webkit-box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.2);
+      box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+      color: var(--gold-color);
+      span {
+        font-size: 2rem;
+      }
+      opacity: 0;
+      transition: opacity 500ms;
+    }
+    &:hover {
+      .mariage--card-wedding-btn-print {
+        opacity: 1;
+      }
+    }
+  }
+
+  .mariage--card--wedding-arrow {
+    position: absolute;
+    bottom: 0;
+    cursor: pointer;
+    // left: 50%;
+    // transform: translate(-50%, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}

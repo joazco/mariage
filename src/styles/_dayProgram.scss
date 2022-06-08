@@ -1,0 +1,45 @@
+.mariage--day-program {
+  height: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(
+    to right bottom,
+    #8ba56a,
+    #9bb079,
+    #aabb89,
+    #b9c699,
+    #c8d2aa
+  );
+  color: white;
+  padding: 0 20px;
+  .vertical-timeline-element-content {
+    box-shadow: none;
+  }
+  .vertical-timeline-element-icon {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .vertical-timeline-element-title {
+    font-size: 1.4rem;
+    font-weight: 500;
+    font-style: italic;
+  }
+  .vertical-timeline-element-subtitle {
+    font-size: 0.9rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    a {
+      color: white;
+      font-family: sans-serif;
+    }
+  }
+  .vertical-timeline-element-date,
+  .vertical-timeline-element-date {
+    font-weight: bold;
+    color: white;
+    opacity: 1;
+  }
+  .vertical-timeline-element-icon {
+    box-shadow: none !important;
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "short_name": "Mariage Danielle & Georges",
+  "name": "Mariage Danielle & Georges",
+  "icons": [
+    {
+      "src": "https://firebasestorage.googleapis.com/v0/b/mariage-29eac.appspot.com/o/cardWedding-64x64.png?alt=media&token=601af80d-5c8e-4a43-8680-e053d7c17d3b",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "https://firebasestorage.googleapis.com/v0/b/mariage-29eac.appspot.com/o/cardWedding-144x144.png?alt=media&token=4fde3773-defc-4123-8455-ae41b1ee6c06",
+      "type": "image/png",
+      "sizes": "144x144"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff"
+}
